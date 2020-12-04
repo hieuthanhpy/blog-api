@@ -6,7 +6,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const options = new DocumentBuilder()
-    .setTitle('Tech Blogs')
+    .setTitle('Blogs')
     .setDescription('The Tech Blogs APIs description')
     .setVersion('1.0')
     .build()
